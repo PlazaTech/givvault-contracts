@@ -11,6 +11,6 @@ https://giv.farm/
 
 - All GIV deposited in the vault is auto-harvested and re-staked every 10 minutes, compounding the rewards automatically so you don't have to
 
-- The GIV Vault [smart contracts](https://blockscout.com/xdai/mainnet/address/0xEefe0DA67C4894B1353DB7071764e2bfb1C277cD) are [open source](https://github.com/PlazaTech/givvault-contracts)
+- GIV Vault is [open source](https://github.com/PlazaTech/givvault-contracts)
 
 - Join the [discord](https://discord.com/invite/Ccsea7UvaS) to stay up to date & join the discussion!

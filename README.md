@@ -1,48 +1,16 @@
-# Tokenized Vault (Giv Vault)
+# GIV Vault
 
-## Advanced Sample Hardhat Project
+Welcome to GIV Vault! 🚜 Staking for the public good
+https://giv.farm/
 
-This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
+- Stake your GIV in the vault to receive ~200% APY from the GIV Farm
 
-The project comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts. It also comes with a variety of other tools, preconfigured to work with the project code.
+- 50% of all rewards are sent to the GIV Vault DAO, where DAO members vote on which Giveth charity project to donate the treasury funds each week✨
 
-Try running some of the following tasks:
+- Receive Vault GIV (vGIV) in exchange for staking your GIV to the Vault, which at any time can be exchanged back to the vault for initial deposit + your earned rewards
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-npx hardhat help
-REPORT_GAS=true npx hardhat test
-npx hardhat coverage
-npx hardhat run scripts/deploy.ts
-TS_NODE_FILES=true npx ts-node scripts/deploy.ts
-npx eslint '**/*.{js,ts}'
-npx eslint '**/*.{js,ts}' --fix
-npx prettier '**/*.{json,sol,md}' --check
-npx prettier '**/*.{json,sol,md}' --write
-npx solhint 'contracts/**/*.sol'
-npx solhint 'contracts/**/*.sol' --fix
-```
+- All GIV deposited in the vault is auto-harvested and re-staked every 10 minutes, compounding the rewards automatically so you don't have to
 
-## Etherscan verification
+- The GIV Vault [smart contracts](https://blockscout.com/xdai/mainnet/address/0xEefe0DA67C4894B1353DB7071764e2bfb1C277cD) are [open source](https://github.com/PlazaTech/givvault-contracts)
 
-To try out Etherscan verification, you first need to deploy a contract to an Ethereum network that's supported by Etherscan, such as Ropsten.
-
-In this project, copy the .env.example file to a file named .env, and then edit it to fill in the details. Enter your Etherscan API key, your Ropsten node URL (eg from Alchemy), and the private key of the account which will send the deployment transaction. With a valid .env file in place, first deploy your contract:
-
-```shell
-hardhat run --network ropsten scripts/deploy.ts
-```
-
-Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_ADDRESS` in this command:
-
-```shell
-npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
-```
-
-## Performance optimizations
-
-For faster runs of your tests and scripts, consider skipping ts-node's type checking by setting the environment variable `TS_NODE_TRANSPILE_ONLY` to `1` in hardhat's environment. For more details see [the documentation](https://hardhat.org/guides/typescript.html#performance-optimizations).
+- Join the [discord](https://discord.com/invite/Ccsea7UvaS) to stay up to date & join the discussion!

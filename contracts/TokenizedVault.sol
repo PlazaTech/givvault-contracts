@@ -182,6 +182,10 @@ contract TokenizedVault is ERC4626 {
         }
     }
 
+    function maxWithdraw(address owner) public view virtual override returns (uint256) {
+        return previewRedeem(balanceOf[owner]);
+    }
+
     function afterDeposit(uint256 _assets, uint256) internal virtual override {
         IERC20(token).approve(htmContract, _assets);
         IHookedTokenManager(htmContract).wrap(_assets);
